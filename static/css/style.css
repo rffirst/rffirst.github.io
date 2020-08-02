@@ -542,8 +542,7 @@ ul.text-left{
 }
 @media (min-width: 320px) and (max-width: 568px){
 	.line {
-		left: 8%;
-        top: 34.5%;
+        top: 35.5%;
         height: 820px;
     }
 }
