@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(65910889, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/65910889" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+  <meta charset="UTF-8">
+  <title>RF First</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="icon" href="static/favicon.ico">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>    
+      <link rel="stylesheet" href="static/css/style1.css">
+      <meta name="keywords" content="доставка, rf first, rffirst, россия, рф, первые, контроль, качество">
+      <meta name="description" content="Быстрая доставка">
+      <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Raleway" rel="stylesheet">
+      <script src="static/js/script.js"></script>
+  </head>
+  <body>
+
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <div class="container">
+<t>
+  <a class="navbar-brand" href="#form">                                               
+      <img class="logo" style="width:70px; height: 70px; border-radius: 50%;"src="static/img/i5.png">
+</a>
+  <button href="#navbarSupportedContent1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav ml-auto">
+         <li class="nav-item active">
+        <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#uslugi">Наши услуги <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#form">Связаться с нами</a>
+      </li>
+          <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          О нас
+               </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="mailto:rf.first@mail.ru">rf.first@mail.ru</a>
+          <a class="dropdown-item" href="tel:+7 (987) 282-76-13">+7 (987) 282-76-13</a>
+          <a class="dropdown-item" href="http://instagram.com/rf_first_">instagram.com/rf_first_</a>
+        </div>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link disabled" href="#"></a>
+      </li>
+         <li class="nav-item">
+             <a class="nav-link disabled" href="#"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+      </li>
+    </ul>
+  </div>
+</t>
+             </div>
+</nav>
+  <div class="imgbl"><h1>ЛОЛ, СРОЧНО В ДУРКУ</h1></div>
+  <div class="text2">
+    <p>лалалалалаллалалалалаллалалалалаллалалалалаллалалалалаллалалалалалллалалалаллалалалалаллалалалалал</p>
+    <ul>
+      <li>лалалалалал</li>
+      <li>лалалалалал</li>
+      <li>лалалалалал</li>
+      <li>лалалалалал</li>
+    </ul>
+    <div class="hr" style="margin-top: 30px;"></div>
+    <p>лалалалалаллалалалалаллалалалалаллалалалалаллалалалалаллалалалалалллалалалаллалалалалаллалалалалал</p>
+    <ul>
+      <li>лалалалалал</li>
+      <li>лалалалалал</li>
+      <li>лалалалалал</li>
+      <li>лалалалалал</li>
+    </ul>
+  </div>
+<div class="hr" style="margin-top: 30px;"></div>
+<div style="height: 60px;margin: 0 auto;"></div>
+<div id="form">
+  {% block content %}
+    <h1  align="center">Заявка</h1>
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        {{ form.csrf_token }}
+        <div class="form-group">
+              <p style="margin: 1px; color: rgb(255, 0, 0);"> {{ massege_name }} </p>
+              {{ form.name.label }}<br>
+              {{ form.name(class="form-control", placeholder="Иван") }}<br>
+              {% for error in form.name.errors %}
+                  <p class="alert alert-danger" role="alert">
+                      {{ error }}
+                  </p>
+              {% endfor %}
+            <p style="margin: 1px; color: rgb(255, 0, 0);"> {{ massege_surname }} </p>
+            {{ form.surname.label }}<br>
+            {{ form.surname(class="form-control", placeholder="Иванов") }}<br>
+            {% for error in form.surname.errors %}
+                <p class="alert alert-danger" role="alert">
+                    {{ error }}
+                </p>
+            {% endfor %}
+            
+            <p style="margin: 1px; color: rgb(255, 0, 0);"> {{ massege_city }} </p>
+            {{ form.city.label }}<br>
+            {{ form.city(class="form-control", type="text", placeholder="Ваш город") }}<br>
+            {% for error in form.city.errors %}
+                <p class="alert alert-danger" role="alert">
+                    {{ error }}
+                </p>
+            {% endfor %}
+            <p style="margin: 1px; color: rgb(255, 0, 0);"> {{ massege_mail }} </p>
+            {{ form.mail.label }}<br>
+            {{ form.mail(class="form-control", type="mail", placeholder="example@example.com") }}<br>
+            {% for error in form.mail.errors %}
+                <p class="alert alert-danger" role="alert">
+                    {{ error }}
+                </p>
+            {% endfor %}
+            
+            <p style="margin: 1px; color: rgb(255, 0, 0);"> {{ massege_phone }} </p>
+            {{ form.phone.label }}<br>
+            {{ form.phone(class="form-control", type="phone", placeholder="89272413060") }}<br>
+            {% for error in form.phone.errors %}
+                <p class="alert alert-danger" role="alert">
+                    {{ error }}
+                </p>
+            {% endfor %}
+            <p style="margin: 1px; color: rgb(255, 0, 0);"> {{ massege_msg }} </p>
+            {{ form.msg.label }}<br>
+            {{ form.msg(class="form-control", type="text", placeholder="Ваше сообщение", style="height: 70px;") }}<br>
+            {% for error in form.msg.errors %}
+                <p class="alert alert-danger" role="alert">
+                    {{ error }}
+                </p>
+            {% endfor %}
+        </div>
+         <p style="margin: 1px; color: rgb(255, 0, 0);"> {{ massege }} </p>
+        <div class="form-group" data-toggle="modal" data-target="#exampleModal">{{ form.submit(type="submit", class="btn btn-primary") }}</div>
+        <hr>
+    </form>
+  {% endblock %}
+</div>
+</div>
+</div>
+<footer class="copy text-center"> Copyright &copy; RF First</footer>
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Отправленно</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Ваши данные успешно отправленны!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Далее</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js'></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
