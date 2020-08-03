@@ -329,7 +329,7 @@ ul.text-left{
     box-shadow: 5 5 15px rgba(0,0,0,0.5);
   }
   .card-img-top {
-    width: 28%;
+    width: 15%;
     margin: 0 auto;
     text-align: center;
   }
@@ -396,12 +396,12 @@ ul.text-left{
       width: 40%;
      }
     .arr1 {left: 31%;top: -3.5%;}
-    .arr2 {right: -10%;top: 15%;}
-    .arr3 {right: 16%;top: 37%;}
-    .arr4 {top: 40%;}
-    .arr5 {right: 35%;top: 66%;}
-    .arr6 {top: 70%;left: 73%;}
-    .arr7 {right: 10%;top: 92%;}
+    .arr2 {right: -18%;top: 15%;}
+    .arr3 {right: 25%;top: 33%;}
+    .arr4 {top: 35%;left: -18%;}
+    .arr5 {right: 43%;top: 56%;}
+    .arr6 {top: 59%;left: 75%;}
+    .arr7 {right: 15%;top: 80%;}
   }
   .sticky {
     position: fixed;
@@ -433,7 +433,7 @@ ul.text-left{
   }
   @media (max-width: 1000px) {
     .ph {margin-top: 50px;}
-    .card-235546{margin: 0;margin-left: 10px;margin-top: 10px;}
+    .card-235546{margin: 0;margin-left: 10px;margin-top: 20px;height: auto;}
 }
 
 .tree {
@@ -487,7 +487,7 @@ ul.text-left{
 @media (min-width: 1000px) and (max-width: 1200px){
     .line {
 		left: 35.7%;
-	    top: 36.5%;
+	    top: 31.5%;
         height: 820px;
     }
 }
@@ -495,7 +495,7 @@ ul.text-left{
 @media (min-width: 768px) and (max-width: 1001px){
     .line {
 		left: 30%;
-	    top: 36%;
+	    top: 31%;
         height: 820px;
     }
 }
@@ -503,7 +503,7 @@ ul.text-left{
 @media (min-width: 544px) and (max-width: 769px){
 	.line {
 		left: 4.5%;
-        top: 35.5%;
+        top: 30.5%;
         height: 820px;
 	}
 	.n1 {
@@ -520,7 +520,7 @@ ul.text-left{
 @media (min-width: 492px) and (max-width: 545px){
 	.line {
 		left: 23%;
-        top: 35.3%;
+        top: 30.3%;
         height: 820px;
     }
 }
@@ -528,7 +528,7 @@ ul.text-left{
 @media (min-width: 448px) and (max-width: 491px){
 	.line {
 		left: 18.5%;
-        top: 34.5%;
+        top: 30.5%;
         height: 820px;
     }
 }
@@ -536,13 +536,13 @@ ul.text-left{
 @media (min-width: 400px) and (max-width: 449px){
 	.line {
 		left: 18%;
-        top: 36%;
+        top: 31%;
         height: 820px;
     }
 }
 @media (min-width: 320px) and (max-width: 568px){
 	.line {
-        top: 35.5%;
+        top: 30.5%;
         height: 820px;
     }
 }
@@ -550,7 +550,7 @@ ul.text-left{
 @media (min-width: 370px) and (max-width: 401px){
 	.line {
 		left: 14.5%;
-        top: 35%;
+        top: 30%;
         height: 820px;
     }
 }
@@ -558,7 +558,7 @@ ul.text-left{
 @media (min-width: 340px) and (max-width: 371px){
 	.line {
 		left: 13%;
-        top: 35%;
+        top: 30%;
         height: 820px;
     }
 }
